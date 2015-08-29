@@ -35,8 +35,29 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg.jpg);
+    /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
     background-size: cover;
+    background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+
+
+   /* background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;*/
 }
 
 .intro-message {
